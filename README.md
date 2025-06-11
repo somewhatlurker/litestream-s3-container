@@ -56,3 +56,9 @@ services:
 ```
 
 Alternatively, build directly from GitHub. Make a fork if you don't trust me.
+
+## License
+
+Copyright 2025 somewhatlurker.
+Assume MIT license.
+(I doubt there's actually enough here to be copyrightable anyway, except the readme)
