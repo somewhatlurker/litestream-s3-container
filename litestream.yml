@@ -8,3 +8,4 @@ dbs:
         path:               $S3_PATH
         region:             $S3_REGION
         endpoint:           $S3_ENDPOINT
+        sync-interval:      $LITESTREAM_SYNC_INTERVAL

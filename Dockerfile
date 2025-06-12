@@ -7,6 +7,8 @@ COPY entrypoint.sh /scripts/entrypoint.sh
 RUN chmod +x /scripts/entrypoint.sh
 ENV PATH=${PATH}:/scripts
 
+# sync-interval default value
+ENV LITESTREAM_SYNC_INTERVAL=1s
+
 ENTRYPOINT ["entrypoint.sh"]
 CMD ["replicate"]
-

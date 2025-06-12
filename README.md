@@ -19,6 +19,7 @@ Very untested, but simple enough that it'll probably work.
 * `S3_PATH` (path of replica within bucket)
 * `S3_REGION`
 * `S3_ENDPOINT`
+* `LITESTREAM_SYNC_INTERVAL` (`sync-interval` of replica, default is `1s`)
 
 These are referenced within `litestream.yml`.
 
